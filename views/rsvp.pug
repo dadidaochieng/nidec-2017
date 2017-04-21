@@ -1,0 +1,56 @@
+html
+	head
+		link(rel='stylesheet', href='css/rsvp.css')
+	body
+		.wrapper
+			header.main-container--header
+				a(href='http://designkenyasociety.co.ke/', target='_blank')
+					img(src='img/logo.png', alt='Design Kenya Society')
+			section.main-container--content
+				.tabbed-pane--tabbed-pane
+					.tabbed-pane--tabs
+						.tabbed-pane--_tab
+							| RSVP
+						.tabbed-pane--_tab
+							| Benefits
+					.tabbed-pane--content
+						.form--header
+							| Fill in your Details
+						.form-description
+							| The information you provide here is to help us better plan how we will host you during the conference.
+						form(lpformnum='5', _lpchecked='1', method="POST")
+							.form--form--vx8k8
+								div
+									.form-group
+										input.ureact-text-input--text-input--10NET.undefined(type='text', placeholder='First Name*', value='', name='fname')
+										input.ureact-text-input--text-input--10NET.undefined(type='text', placeholder='Last Name*', value='', name='lname')
+									.form-group
+										input.ureact-text-input--text-input--10NET.undefined(type='text', placeholder='Email Address*', value='', name='email')
+										input.ureact-text-input--text-input--10NET.undefined(type='text', placeholder='Phone Number*', value='', name='phone')
+									.form-group
+										input.ureact-text-input--text-input--10NET.undefined(type='text', placeholder='Occupation*', value='', name='occupation')
+										input.ureact-text-input--text-input--10NET.undefined(type='text', placeholder='Field of Design*', value='', name='field')
+									.form-group
+										input.ureact-text-input--text-input--10NET.undefined(type='text', placeholder='Organisation/Institution*', value='', name='organisation')
+							button.ureact-button--primary--2Z4W9.ureact-button--_btn--2nt_i.ureact-button--normal--1kWMU.form--primary-button--1NgrB(type='submit', style='cursor: pointer;') RSVP
+							hr
+							div
+								//- form(method='post', action='https://hoth.udacity.com/v2/register')
+								//- 	input(type='hidden', name='next', value='https://classroom.udacity.com/authenticated')
+								//- 	input(type='hidden', name='provider', value='')
+								.index--description--113WL
+									| or RSVP with one of these services
+								.index--buttons--1r2XL
+									button.ureact-button--secondary--2oU3S.ureact-button--_btn--2nt_i.ureact-button--normal--1kWMU._provider-button--provider-button--6VDst(type='button', style='cursor: pointer;')
+										._provider-button--label--3kTNo
+											img(src='img/facebook_logo-adc2f.svg')
+											// react-text: 211
+											| Facebook
+											// /react-text
+									button.ureact-button--secondary--2oU3S.ureact-button--_btn--2nt_i.ureact-button--normal--1kWMU._provider-button--provider-button--6VDst(type='button', style='cursor: pointer;')
+										._provider-button--label--3kTNo
+											img(src='img/google_logo-12018.svg')
+											// react-text: 215
+											| Google
+											// /react-text
+// Javascript Files

@@ -1,0 +1,112 @@
+doctype html
+html(lang='en')
+	head
+		title NIDEC
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		link(href='https://fonts.googleapis.com/css?family=Open+Sans', rel='stylesheet')
+		link(href='css/bootstrap.min.css', rel='stylesheet')
+		link(href='css/style.css', rel='stylesheet')
+	body
+		.wrapper
+			section.row.header
+				.alert.alert-danger.alert-dismissible(role='alert')
+					button.close(type='button', data-dismiss='alert', aria-label='Close')
+						span(aria-hidden='true') ×
+					p.rsvp_alert
+					strong
+						a(href='/rsvp') RSVP Now!
+					|  This will help us plan for your attendance better.
+					p
+				.navigation
+					.container
+						.col-md-2.logo
+							a(href='/')
+								img(src='img/logo.png')
+						nav.col-md-10.nav
+							ul.nav.navbar-nav.navbar-right
+								li
+									a(href='https://www.ticketsasa.com/events/eventdetail/view/2314/the_nairobi_international_design_conference_nidec', target='_blank') Buy Tickets
+								li
+									a.btn.btn-primary(href='/rsvp') RSVP
+
+			section.row.hero
+				.contain
+					.hero__content
+						h6 NIDEC 2017
+						h1 Nairobi International Design Conference - 2017
+						h6 25th - 26th May 2017
+						h6 UON Towers - University of Nairobi
+						p
+							| The NIDEC 2017 objective is to provide solutions that are more effective, efficient, desirable, useful and long lasting and address sustainable solutions for Africa's social challenges. These solutions can only be created using integrated design approaches. design recognizes and encourages the trans disciplinary input of other sectors in social design for Africa's hybrid solutions.
+						a.btn.btn-success.button--white.inline.rsvp(href='/rsvp') RSVP Now
+						a.btn.btn-success.button--white.inline.rsvp(href='https://www.ticketsasa.com/events/eventdetail/view/2314/the_nairobi_international_design_conference_nidec', target='_blank') Buy Ticket
+						ul.social-icons.social-icons--main
+							li
+								a(href='https://www.facebook.com/groups/DesignKenya/', target='_blank', title='Facebook') Facebook
+									img(src='')
+							li
+								a(href='#', target='_blank', title='Facebook') Google Plus
+									img(src='')
+							li
+								a(href='https://twitter.com/designksociety', target='_blank', title='Facebook') Twitter
+									img(src='')
+							li
+								a(href='https://www.instagram.com/designkenyasociety/?hl=en', target='_blank', title='Facebook') Instagram
+									img(src='')
+
+			section.speakers#speakers
+				div.contain.text-center
+					h2 Speakers
+					p.legible.center NIDEC 2017 intends to address sustainable solutions for Africa’s social challenges using integrated design approaches. Design recognizes and encourages the transdisciplinary input of other sectors in social innovation, co-design, universal design, design for sustainability, service design and social design for Africa’s 
+					p.mb-3
+						strong Live chats, timeless insights. Only at NIDEC 2017!
+					div.speaker_cards
+						a.card.card-speaker
+							div.speaker_info
+								img.img.img-circle(alt="Lilac Osanjo" src="/img/lilac.jpg" width="150px")
+								h5 Lilac Osanjo
+								p Director, School of Art and Design
+							h6 May 25, 2017
+
+						a.card.card-speaker
+							div.speaker_info
+								img.img.img-circle(alt="Lilac Osanjo" src="/img/lilac.jpg" width="150px")
+								h5 Lilac Osanjo
+								p Director, School of Art and Design
+							h6 May 25, 2017
+
+						a.card.card-speaker
+							div.speaker_info
+								img.img.img-circle(alt="Lilac Osanjo" src="/img/lilac.jpg" width="150px")
+								h5 Lilac Osanjo
+								p Director, School of Art and Design
+							h6 May 25, 2017
+
+						a.card.card-speaker
+							div.speaker_info
+								img.img.img-circle(alt="Lilac Osanjo" src="/img/lilac.jpg" width="150px")
+								h5 Lilac Osanjo
+								p Director, School of Art and Design
+							h6 May 25, 2017
+
+			hr
+			section.partners
+				div.contain.text-center
+					p.legible.center Sponsored by:
+					div.partners_featured
+						img.partners_featured-image(src="img/sponsors/aurecon.png", alt="",  height="72")
+						img.partners_featured-image(src="img/sponsors/karakana.png", alt="",  height="72")
+						img.partners_featured-image(src="img/sponsors/ogilvy.png", alt="",  height="72")
+						img.partners_featured-image(src="img/sponsors/nmg.png", alt="",  height="72")
+						img.partners_featured-image(src="img/sponsors/P&LLuxe.png", alt="",  height="72")
+						img.partners_featured-image(src="img/sponsors/boldesigns.png", alt="",  height="72")
+
+			hr
+
+
+
+
+		// Javascript Files
+		script(src='https://code.jquery.com/jquery-3.2.1.min.js', integrity='sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=', crossorigin='anonymous')
+		script(type='text/javascript', src='js/bootstrap.min.js')

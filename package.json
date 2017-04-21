@@ -1,0 +1,19 @@
+{
+  "name": "nidec",
+  "version": "1.0.0",
+  "description": "The Nairobi International Design Conference website 2017",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Odhiambo Ochieng <dadidaochieng>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.2",
+    "jquery": "^3.2.1",
+    "morgan": "^1.8.1",
+    "pug": "^2.0.0-beta.12"
+  }
+}
